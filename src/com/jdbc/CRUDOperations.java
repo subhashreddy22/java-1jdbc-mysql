@@ -7,6 +7,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
+/**
+ * Class to perform CRUD
+ * 
+ * @author subhash
+ *
+ */
 public class CRUDOperations {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
@@ -75,7 +81,7 @@ public class CRUDOperations {
 				if (i != 0) {
 					System.out.println("Record deleted successfully");
 				} else {
-					System.out.println("Record could not be deleteds");
+					System.out.println("Record could not be deleted");
 				}
 			}
 			System.out.println("Do you want to perfor more operations: y/n");
