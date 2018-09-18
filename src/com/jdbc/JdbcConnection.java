@@ -6,6 +6,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * Simple JDBC connection to MySQL
+ * 
+ * @author subhash
+ *
+ */
 public class JdbcConnection {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
